@@ -136,6 +136,7 @@ img {
  }
 
  /* MEDIA QUERY MOBILE */
+
  @media screen and (max-width: 480px) {
     .container{
         width: 100%;
@@ -175,3 +176,11 @@ img {
         padding-bottom: 50px;
     }
  }
+ /* MEDIA QUERY DESKTOP */
+ 
+ @media screen and (max-width: 1160px) {
+    .container{
+        width: 100%;
+    }   
+ }
+
