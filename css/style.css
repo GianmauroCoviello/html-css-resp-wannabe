@@ -141,7 +141,7 @@ img {
         width: 100%;
     }
     .lessons .col{
-        width: 90%;
+        width: 100%;
     }
     .why-us{
         background-color: #222222;
@@ -149,7 +149,7 @@ img {
         padding-top: 50px;
     }
     .why-us .col{
-        width: 90%;
+        width: 100%;
 
     }
     
@@ -162,7 +162,7 @@ img {
         margin-bottom: 0;
     }
     .steps .col{
-        width: 90%;
+        width: 100%;
 
     }
     .row .col:first-child{
@@ -170,5 +170,8 @@ img {
     }
     .steps .col:last-child{
         padding-top: 70px;
+    }
+    .lessons .col, .steps .col, .why-us .col{
+        padding-bottom: 50px;
     }
  }
